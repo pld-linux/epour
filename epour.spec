@@ -35,15 +35,12 @@ rb-libtorrent.
 %setup -q
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} setup.py install \
-	--optimize=2 \
-	--skip-build \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 
