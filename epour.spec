@@ -12,7 +12,7 @@ Source0:	http://download.enlightenment.org/rel/apps/epour/%{name}-%{version}.tar
 URL:		http://git.enlightenment.org/apps/epour.git/
 BuildRequires:	python-devel >= 2
 BuildRequires:	python-distutils-extra
-BuildRequires:	rpmbuild(macros) >= 1.241
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 Requires:	python-dbus
